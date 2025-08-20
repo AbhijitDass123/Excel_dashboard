@@ -27,4 +27,44 @@ The dataset used in this project contains real-world data science job postings f
 
 ## Dashboard Build
 ### 📉 Charts
+**📊 Data Science Job Salaries - Bar Chart**
+
+![Dashboard Preview](Asset/1_Salary_Dashboard_Chart1.png)
+## 📊 Dashboard Highlights  
+
+- 🛠️ **Excel Features**: Used bar charts with formatted salary values and an optimized layout for better clarity.  
+- 🎨 **Design Choice**: Horizontal bar charts enable clear visual comparison of median salaries.  
+- 📉 **Data Organization**: Job titles are sorted in descending order of salary, making high-paying roles stand out.  
+- 💡 **Insights Gained**: Analyst roles serve as a strong entry point for beginners, with clear progression into senior positions that reveal distinct salary growth trends.
+
+**🌍 Global Salary Visualization- Map Chart**
+  
+![Data Science Jobs](Asset/project_map.gif)
+
+- 🛠️ **Excel Features**: Leveraged Excel's map chart to plot median salaries across countries.  
+- 🎨 **Design Choice**: Applied a color-coded scheme to easily distinguish salary levels by region.  
+- 📊 **Data Representation**: Displayed median salary for each country with available data.  
+- 👁️ **Visual Enhancement**: Enhanced readability for quick geographic comparisons.  
+- 💡 **Insights Gained**: Clearly highlights global salary disparities, making it easy to spot high- and low-paying regions at a glance.
+
+### 🧮 Formulas and Functions  
+
+- 💰 **Median Salary by Job Titles**  
+```excel
+=MEDIAN(
+  IF(
+    (jobs[job_title_short]=A2) *
+    (jobs[job_country]=country) *
+    (ISNUMBER(SEARCH(type,jobs[job_schedule_type]))) *
+    (jobs[salary_year_avg]<>0),
+    jobs[salary_year_avg]
+  )
+)
+```
+
+- 🔍 **Multi-Criteria Filtering**: Evaluates job title, country, and schedule type while excluding blank or invalid salaries.  
+- 📊 **Array Formula**: Leverages `MEDIAN()` with nested `IF()` conditions to process and analyze arrays of salary data.  
+- 🎯 **Tailored Insights**: Generates precise salary outputs based on job title, geographic region, and work schedule type.  
+- 🔢 **Formula Purpose**: Populates the salary analysis table with accurate median values filtered by the selected parameters.  
+
 
