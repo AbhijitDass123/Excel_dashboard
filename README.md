@@ -6,3 +6,4 @@ This project explores global data science job trends, analyzing salaries and job
 It provides insightful visualizations and dashboards to help understand the demand, pay scales, and career opportunities in data science worldwide.
 
 ### Dashboard File
+My final dashboard is in[📂project_dashboard](https://github.com/AbhijitDass123/Excel_dashboard/raw/main/Asset/Excel_project.xlsx)
