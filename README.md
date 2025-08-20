@@ -1,4 +1,8 @@
 # Excel_dashboard
-📊 Excel Dashboard analyzing global Data Science job postings........insights on salaries, job types, and hiring platforms worldwide.
-![Dashboard Demo](assets/main_project.gif)
+![Data Science Jobs](Asset/Main_project.gif)
 
+## Introduction
+This project explores global data science job trends, analyzing salaries and job types across different locations. 
+It provides insightful visualizations and dashboards to help understand the demand, pay scales, and career opportunities in data science worldwide.
+
+### Dashboard File
