@@ -25,7 +25,6 @@ The dataset used in this project contains real-world data science job postings f
 - 📍 **Locations**  
 - 🛠️ **Job Types & Sources**
 
-## Dashboard Build
 ### 📉 Charts
 **📊 Data Science Job Salaries - Bar Chart**
 
