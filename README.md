@@ -67,5 +67,16 @@ The dataset used in this project contains real-world data science job postings f
 - 🎯 **Tailored Insights**: Generates precise salary outputs based on job title, geographic region, and work schedule type.  
 - 🔢 **Formula Purpose**: Populates the salary analysis table with accurate median values filtered by the selected parameters.  
 
-## 📉 Dashboard Implementation
+### 📉 Dashboard Implementation
+![Data Science Jobs]()
+
+### 🕒 Count of Job Schedule Type
+``` sql
+=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+```
+- **🔍 Unique List Generation**
+This Excel formula uses the FILTER() function to generate a refined list of job schedule types. It removes entries containing "and" or commas, and also excludes zero values for cleaner results.
+
+- **🎯 Formula Purpose**
+The filtered list is then used to populate the table below, providing a unique and valid set of job schedule types for analysis.
 
