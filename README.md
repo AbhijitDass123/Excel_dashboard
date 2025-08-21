@@ -68,7 +68,7 @@ The dataset used in this project contains real-world data science job postings f
 - 🔢 **Formula Purpose**: Populates the salary analysis table with accurate median values filtered by the selected parameters.  
 
 ### 📉 Dashboard Implementation
-![Data Science Jobs]()
+![Data Science Jobs](Asset/job_title.png)
 
 ### 🕒 Count of Job Schedule Type
 ``` sql
@@ -80,3 +80,20 @@ This Excel formula uses the FILTER() function to generate a refined list of job 
 - **🎯 Formula Purpose**
 The filtered list is then used to populate the table below, providing a unique and valid set of job schedule types for analysis.
 
+### 📉 Dashboard Implementation
+![Data Science Jobs](Asset/job_type.png)
+
+## ✅ Data Validation
+**🔍 Filtered List**
+
+**🔒 Enhanced Data Validation**
+By applying the filtered list as a Data Validation rule (under Job Title, Country, and Type in the Data tab), the dashboard ensures:
+
+- **🎯 Accurate Input** – users can only select from predefined, validated schedule types
+- **🚫 Error Prevention** – eliminates incorrect or inconsistent entries
+- **👥 Improved Usability** – creates a cleaner and more reliable user experience
+
+  ![Data Science Jobs](Asset/job_title.gif)
+
+  ## Conclusion
+  I developed this dashboard to present insights into salary trends across diverse data-related job roles. Built using datasets from my Excel course, the dashboard enables users to explore how factors such as location and job type influence compensation. Its interactive features provide a clear and practical view of the job market, helping users make more informed career decisions.
