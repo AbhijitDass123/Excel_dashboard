@@ -70,7 +70,7 @@ The dataset used in this project contains real-world data science job postings f
 ![Data Science Jobs](Asset/job_title.png)
 
 ### 🕒 Count of Job Schedule Type
-``` sql
+``` excel
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
 - **🔍 Unique List Generation**
