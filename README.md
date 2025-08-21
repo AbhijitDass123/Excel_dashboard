@@ -67,5 +67,5 @@ The dataset used in this project contains real-world data science job postings f
 - 🎯 **Tailored Insights**: Generates precise salary outputs based on job title, geographic region, and work schedule type.  
 - 🔢 **Formula Purpose**: Populates the salary analysis table with accurate median values filtered by the selected parameters.  
 
-
+## 📉 Dashboard Implementation
 
